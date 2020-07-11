@@ -1,25 +1,31 @@
+
+[![quality badge](https://img.shields.io/badge/quality-4.125-brightgreen)]
 # README Generator
-    
-    ## Description
-    Generates clean, structured README files via command line.
-    ## Table of Contents
-    N/A
-    ## Installation
-    npm i, node index.js
-    ## Author
-    James Cook
-    ### Usage
-    Yes
-    ### License
-    MIT
-    ### Contributors
-    James Cook
-    ### Tests
-    No tests required
-    ### Questions
-    No questions allowed
-    ### Contact
-    cookjames98
-    https://avatars3.githubusercontent.com/u/63876549?s=460&u=de7b0318f15eb85de9b838aba8a9fcd395e3685a&v=4
-    cookjamesarthur@gmail.com
+undefined
+# Description
+Generates clean, structured READMEs from a command line interface.
+# Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
+* [Contact](#Contact)
+# Installation
+Download repository, cd into it, run "npm i", then "index node.js"
+# Author
+James Cook
+# Usage
+Yes
+# License
+Apache license 2.0
+# Contributors
+James Cook
+# Tests
+No tests are required for this project
+# Questions
+No questions please
+# Contact
+[![github profile picture](https://avatars.githubusercontent.com/jamescook98?s=100)](mailto:cookjamesarthur@gmail.com)
     
