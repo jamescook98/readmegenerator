@@ -1,5 +1,5 @@
 
-[![quality badge](https://img.shields.io/badge/quality-4.125-brightgreen)]
+![quality badge](https://img.shields.io/badge/quality-4.125-brightgreen)
 # README Generator
 undefined
 # Description
