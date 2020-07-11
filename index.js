@@ -82,10 +82,10 @@ ${userInput.description}
 * [Contact](#Contact)
 # Installation
 ${userInput.installation}
-# Author
-${userInput.author}
 # Usage
 ${userInput.usage}
+# Author
+${userInput.author}
 # License
 ${userInput.license}
 # Contributors
