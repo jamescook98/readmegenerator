@@ -11,11 +11,6 @@ async function userInputs() {
             },
             {
                 type: "input",
-                message: "Badge link:",
-                name: "badge"
-            },
-            {
-                type: "input",
                 message: "Project description:",
                 name: "description"
             },
@@ -73,8 +68,8 @@ async function userInputs() {
 
         ]);
         return writeToFile("README.md", `
+![quality badge](https://img.shields.io/badge/quality-4.125-brightgreen)
 # ${userInput.title}
-${userInput.badge}
 # Description
 ${userInput.description}
 # Table of Contents
