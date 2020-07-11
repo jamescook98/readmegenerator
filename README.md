@@ -14,10 +14,10 @@ Generates clean, structured READMEs from a command line interface.
 * [Contact](#Contact)
 # Installation
 Download repository, cd into it, run "npm i"
-# Author
-James Cook
 # Usage
 Run "index node.js"
+# Author
+James Cook
 # License
 Apache license 2.0
 # Contributors
