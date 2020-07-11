@@ -21,11 +21,6 @@ async function userInputs() {
             },
             {
                 type: "input",
-                message: "Table of contents:",
-                name: "contents"
-            },
-            {
-                type: "input",
                 message: "Installation:",
                 name: "installation"
             },
@@ -72,42 +67,42 @@ async function userInputs() {
             },
             {
                 type: "input",
-                message: "Github profile picture link:",
-                name: "profpic"
-            },
-            {
-                type: "input",
                 message: "GitHub email:",
                 name: "email"
             }
 
         ]);
-        return writeToFile("README.md", `# ${userInput.title}
-    ${userInput.badge}
-    ## Description
-    ${userInput.description}
-    ## Table of Contents
-    ${userInput.contents}
-    ## Installation
-    ${userInput.installation}
-    ## Author
-    ${userInput.author}
-    ### Usage
-    ${userInput.usage}
-    ### License
-    ${userInput.license}
-    ### Contributors
-    ${userInput.contributors}
-    ### Tests
-    ${userInput.tests}
-    ### Questions
-    ${userInput.questions}
-    ### Contact
-    ${userInput.username}
-    ${userInput.profpic}
-    ${userInput.email}
+        return writeToFile("README.md", `
+# ${userInput.title}
+${userInput.badge}
+# Description
+${userInput.description}
+# Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
+* [Contact](#Contact)
+# Installation
+${userInput.installation}
+# Author
+${userInput.author}
+# Usage
+${userInput.usage}
+# License
+${userInput.license}
+# Contributors
+${userInput.contributors}
+# Tests
+${userInput.tests}
+# Questions
+${userInput.questions}
+# Contact
+[![github profile picture](https://avatars.githubusercontent.com/${userInput.username}?s=100)](mailto:${userInput.email})
     `
-        );
+        );        
     }
     catch (err) {
         console.log(err);
