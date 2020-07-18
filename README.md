@@ -1,9 +1,8 @@
 
 ![quality badge](https://img.shields.io/badge/quality-4.125-brightgreen)
-# README Generator
-![gif demonstrating functionality](assets/functionality.gif)
+# Employee Summary Engine
 # Description
-Generates clean, structured READMEs from a command line interface.
+Recieves and organizes employee information and creates a clean, structured HTML document
 # Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -13,19 +12,19 @@ Generates clean, structured READMEs from a command line interface.
 * [Questions](#Questions)
 * [Contact](#Contact)
 # Installation
-Download repository, cd into it, run "npm i"
+Clone, then "npm i"
 # Usage
-Run "index node.js"
+"node app.js"
 # Author
 James Cook
 # License
-Apache license 2.0
+Mozilla Public License 2.0
 # Contributors
 James Cook
 # Tests
-No tests are required for this project
+No tests required
 # Questions
 No questions please
 # Contact
-[![github profile picture](https://avatars.githubusercontent.com/jamescook98?s=100)](mailto:cookjamesarthur@gmail.com)
+[![github profile picture](https://avatars.githubusercontent.com/jamescook98?s=100)](mailto:cookjamesarthur [at] gmail [dot] com)
     
